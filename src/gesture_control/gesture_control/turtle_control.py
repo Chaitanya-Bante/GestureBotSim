@@ -12,7 +12,7 @@ class GestureControlNode(Node):
 
     def __init__(self):
         super().__init__('gesture_control_node')
-        self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.publisher = self.create_publisher(Twist, '/turtlesim/turtle1/cmd_vel', 10)
         
     def send_command(self, linear_x, angular_z):
         msg = Twist()
@@ -72,7 +72,7 @@ def main(args=None):
             recognizer.recognize_async(mp_image, int(cap.get(cv2.CAP_PROP_POS_MSEC)))
 
             if current_gesture:
-                cv2.putText(frame, current_gesture, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+                cv2.putText(frame, current_gesture, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 100), 2, cv2.LINE_AA)
 
             cv2.imshow('Hand Gesture Recognition', frame)
 

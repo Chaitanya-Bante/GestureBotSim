@@ -1,0 +1,25 @@
+[1.148s] Invoking command in '/home/chaitanya/GestureBotSim/src/gesture_control': PYTHONPATH=/home/chaitanya/GestureBotSim/build/gesture_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/chaitanya/GestureBotSim/build/gesture_control/build install --record /home/chaitanya/GestureBotSim/build/gesture_control/install.log --single-version-externally-managed install_data
+[1.576s] running egg_info
+[1.577s] writing ../../build/gesture_control/gesture_control.egg-info/PKG-INFO
+[1.578s] writing dependency_links to ../../build/gesture_control/gesture_control.egg-info/dependency_links.txt
+[1.578s] writing entry points to ../../build/gesture_control/gesture_control.egg-info/entry_points.txt
+[1.579s] writing requirements to ../../build/gesture_control/gesture_control.egg-info/requires.txt
+[1.579s] writing top-level names to ../../build/gesture_control/gesture_control.egg-info/top_level.txt
+[1.581s] reading manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[1.582s] adding license file 'LICENSE'
+[1.583s] writing manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.583s] running build_py
+[1.584s] copying gesture_control/turtle_control.py -> /home/chaitanya/GestureBotSim/build/gesture_control/build/lib/gesture_control
+[1.584s] running install
+[1.586s] running install_lib
+[1.587s] copying /home/chaitanya/GestureBotSim/build/gesture_control/build/lib/gesture_control/turtle_control.py -> /home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.588s] byte-compiling /home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages/gesture_control/turtle_control.py to turtle_control.cpython-310.pyc
+[1.590s] running install_data
+[1.590s] running install_egg_info
+[1.593s] removing '/home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages/gesture_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.594s] Copying ../../build/gesture_control/gesture_control.egg-info to /home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages/gesture_control-0.0.0-py3.10.egg-info
+[1.595s] running install_scripts
+[1.633s] Installing turtle_control script to /home/chaitanya/GestureBotSim/install/gesture_control/lib/gesture_control
+[1.633s] writing list of installed files to '/home/chaitanya/GestureBotSim/build/gesture_control/install.log'
+[1.675s] Invoked command in '/home/chaitanya/GestureBotSim/src/gesture_control' returned '0': PYTHONPATH=/home/chaitanya/GestureBotSim/build/gesture_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chaitanya/GestureBotSim/install/gesture_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/chaitanya/GestureBotSim/build/gesture_control/build install --record /home/chaitanya/GestureBotSim/build/gesture_control/install.log --single-version-externally-managed install_data
